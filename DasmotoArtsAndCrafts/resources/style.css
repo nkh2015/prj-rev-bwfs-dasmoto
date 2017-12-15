@@ -1,0 +1,54 @@
+/*All the elements use the same font*/
+h1,h3,p,span,div{
+  font-family: "Helvetica";
+}
+
+/* Font size for all <p> tags, size not specified in the spec doc*/
+p {
+  font-size: 18px;
+}
+
+/* Font size for all <h4> tags in <div>, size not specified in the spec doc*/
+h4{
+  font-size: 22px;
+}
+
+/*Styling for the main heading*/
+ h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+
+}
+
+/*Styling for the "Brushes"*/
+ .brushes h3{
+  background-color: mediumspringgreen;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/*Styling for the "Frames"*/
+.frames h3{
+  background-color: lightcoral;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/*Styling for the "Paints"*/
+.paint h3{
+  background-color: skyblue;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/*Styling for the text to be highlighted in blue*/
+.text-highlight {
+  font-weight: bold;
+  color: blue;
+}
